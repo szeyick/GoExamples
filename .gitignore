@@ -64,3 +64,9 @@ crashlytics-build.properties
 fabric.properties
 
 .idea/vcs.xml
+
+.idea/modules.xml
+
+.idea/.name
+
+.idea/GoExamples.iml
