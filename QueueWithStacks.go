@@ -20,6 +20,9 @@ type Stack struct {
 	container[] int
 }
 
+/**
+	The application main.
+ */
 func main() {
 	fmt.Println("An implementation of a queue with 2 stacks.")
 	initQueue()
@@ -101,5 +104,3 @@ func move() {
 func getQueueSize() int {
 	return pushStack.size + popStack.size
 }
-
-

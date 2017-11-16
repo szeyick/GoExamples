@@ -1,7 +1,15 @@
+/**
+The Pointers.
+
+This application is a demo for how pointers work in Go.
+ */
 package main
 
 import "fmt"
 
+/**
+The application main.
+ */
 func main() {
 	var a int = 20   /* actual variable declaration */
 	var ip *int      /* pointer variable declaration */

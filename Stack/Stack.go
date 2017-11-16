@@ -49,7 +49,7 @@ func (stack *container) Size() (int) {
 	Return a look at the top most item without popping it off.
  */
 func (stack *container) Peek() (string) {
-	if (stack.size == 0) {
+	if stack.size == 0 {
 		return ""
 	}
 	return stack.array[stack.size - 1]

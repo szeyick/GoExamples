@@ -14,6 +14,9 @@ type Book struct {
 	id int
 }
 
+/**
+	The application main.
+ */
 func main() {
 	fmt.Println("This is a demo of Structs in Go!\n")
 	book := Book {"1984", "George Orwell", 1}
